@@ -2,7 +2,7 @@
 #include <conio.h>        
 void main()
 {
-	int a,b,k,j;
+	int a,b,k,j,n;
         printf("ENTER A NUMBER\n");
         scanf_s("%d",&n);
 	k = 0;
