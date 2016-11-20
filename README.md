@@ -1,5 +1,5 @@
 # Math-programms-in-C
-Many Mathematical programs in c
+Many Mathematical programs in c with single input
 -------------------------------------------------
 LIST
 
@@ -10,6 +10,8 @@ LIST
 3.odd even calculator
 
 4.first n perfect numbers and sum of first n perfect numbers
+
+5.print 1st n fibonacci numbers
 
 version 1.1
 
