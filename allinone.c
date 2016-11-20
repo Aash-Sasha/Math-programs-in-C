@@ -7,6 +7,7 @@ int factorialofn(int n);
 int primeornot(int n);
 int evenorodd(int n);
 int perfectnum(int n);
+int fibonacci(int n);
 void finishz();
 void main()
 {
@@ -40,6 +41,12 @@ void main()
 		finishz();
 		break;
 	case 5:
+		printf("-=Print 1st n fibonacci number=-");
+		n = valuen();
+		fibonacci(n);
+		finishz();
+		break;
+	case 6:
 		exit();
 		break;
 	default:
@@ -53,7 +60,7 @@ int welcome()
 {
 	printf("MADE BY -=AaSh=-\n-=CALCULATOR=-\n");
 	printf("Input\n");
-	printf("1 To find Factorial of n\n2 To check n is prime or not\n3 To check n is odd or even\n4 To find Sum of 1st n perfect number\n5 To exit\n");
+	printf("1 To find Factorial of n\n2 To check n is prime or not\n3 To check n is odd or even\n4 To find Sum of 1st n perfect number\n5 To print 1st n fibonacci numbers\n6 To exit\n");
 
 	int z;
 	scanf_s("%d", &z);
@@ -142,6 +149,26 @@ int perfectnum(int n)
 			break;
 	}
 	printf("\nSum of 1st %d perfect number is %d\n", n, u_sum);
+	return 0;
+}
+int fibonacci(int n)
+{
+	int k, a, b, c;
+
+	a = 0;
+	b = 1;
+	c = 1;
+
+	if (n > 0)
+		printf("0 \n");
+
+	for (k = 1; k <= n - 1; k = k + 1)
+	{
+		printf("%d \n", c);
+		c = a + b;
+		a = b;
+		b = c;
+	}
 	return 0;
 }
 void finishz()
