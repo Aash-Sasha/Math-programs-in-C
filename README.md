@@ -1,5 +1,5 @@
 # Math-programms-in-C
-Many Mathematical programs in c with single input
+Many Mathematical programs in c with single input "n"
 -------------------------------------------------
 
 <---++++++LIST++++++--->
