@@ -12,7 +12,7 @@ void main()
     printf("\n Numbers are\n\n");
     for (a = 5;; a = a + 1)
     {
-        for (b = 1; b < a; b = b + 1)
+        for (b = 1; b <= a/2; b = b + 1)
         {
             if (a%b == 0)
             {
