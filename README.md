@@ -1,7 +1,8 @@
 # Math-programms-in-C
 Many Mathematical programs in c with single input
 -------------------------------------------------
-LIST
+
+<---++++++LIST++++++--->
 
 1.Find Factorial of n.
 
@@ -20,6 +21,6 @@ version 1.1
 NOTE:-
 restriction on size of integer due to c ,will be patched soon.
 
-devs---->
+DEVs---->
 
 -=Aash=-
