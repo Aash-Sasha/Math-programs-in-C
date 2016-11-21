@@ -15,7 +15,7 @@ void main()
 	}
 	else
 	{
-		for (a = 3; a < n; a = a + 2)
+		for (a = 3; a <= n/2; a = a + 2)
 		{
 			b = n%a;
 			if (b == 0)
