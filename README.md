@@ -14,7 +14,7 @@ Many Mathematical programs in c with single input
 
 5.Print 1st n fibonacci numbers
 
-6.Decimal to Binary converter.
+6.Convert n from Decimal to Binary.
 
 version 1.1
 
