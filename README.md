@@ -3,15 +3,17 @@ Many Mathematical programs in c with single input
 -------------------------------------------------
 LIST
 
-1.factorial calculator
+1.Find Factorial of n.
 
-2.prime number calculator
+2.Check n is prime or not.
 
-3.odd even calculator
+3.Check n is odd or even.
 
-4.first n perfect numbers and sum of first n perfect numbers
+4.Find first n perfect numbers and sum of first n perfect numbers.
 
-5.print 1st n fibonacci numbers
+5.Print 1st n fibonacci numbers
+
+6.Decimal to Binary converter.
 
 version 1.1
 
