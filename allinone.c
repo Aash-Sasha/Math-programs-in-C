@@ -96,7 +96,7 @@ int primeornot(int n)
 	}
 	else
 	{
-		for (a = 3; a < n; a = a + 2)
+		for (a = 3; a <= n/2; a = a + 2)
 		{
 			b = n%a;
 			if (b == 0)
@@ -128,7 +128,7 @@ int perfectnum(int n)
 	printf("\n Numbers are\n\n");
 	for (a = 5;; a = a + 1)
 	{
-		for (b = 1; b < a; b = b + 1)
+		for (b = 1; b <= a/2; b = b + 1)
 		{
 			if (a%b == 0)
 			{
