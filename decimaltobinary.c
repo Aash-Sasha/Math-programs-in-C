@@ -9,7 +9,7 @@ void main()
 	long long int r, a, j, q;
 	printf("\t-=AaSh=-\nInput Value of n\n\n");
 	scanf_s("%lld", &q);
-	printf("\n-==Decimal to Binary==-\nVersion 2(final version)\n");
+	printf("\n-==Decimal to Binary==-\nVersion 2(final version)\n\n");
 	j = 0;
 	for (a = 0; q > 1;a=a+1) 
 	{
