@@ -4,9 +4,9 @@
 //AaSh
 void main()
 {
-	int r, a, j, q;
+	long int r, a, j, q;
 	printf("Input Value of n\n");
-	scanf_s("%d", &q);
+	scanf_s("%ld", &q);
 	
 	j = 0;
 	for (a = 0; q > 1;a=a+1) 
@@ -16,7 +16,7 @@ void main()
 		j = (r*pow(10, a)) + j;
 	}
 	j = (1 * pow(10, a) + j);
-	printf("\n%d",j);
+	printf("\n%ld",j);
 	_getch();
 }
 
