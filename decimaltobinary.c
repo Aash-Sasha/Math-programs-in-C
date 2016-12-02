@@ -6,7 +6,7 @@
 void main()
 
 {
-	int storage[80];
+	int storage[90];
 	long long int r, a, j,q,k;
 
 	for (k = 1; k <= 19; k = k + 1)
