@@ -6,10 +6,10 @@
 void main()
 
 {
-	int storage[90];
+	int storage[64];
 	long long int r, a, j,q,k;
 
-	for (k = 1; k <= 90; k = k + 1)
+	for (k = 1; k <= 64; k = k + 1)
 	{
 		storage[k] = 0;
 	}
@@ -30,7 +30,7 @@ void main()
 	}
 	storage[a + 1] = q;
 	printf("\n\nFinal Answer\n\n");
-	for (j = 90; j >= 1; j = j - 1)
+	for (j = 64; j >= 1; j = j - 1)
 	{
 		printf("%d", storage[j]);
 	}
