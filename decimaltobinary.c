@@ -6,27 +6,27 @@ void main()
 
 {
 	int storage[64];
-	long long int r, a, j,q,k;
+	unsigned long long int r, a, j,q,k;
 
 	for (k = 0; k <= 64; k = k + 1)
 	{
 		storage[k] = 0;
 	}
 	printf("\t-=AaSh=-\nInput Value of n\n\n");
-	scanf_s("%lld", &q);
-	printf("\n-==Decimal to Binary==-\nVersion 3\n\n");
+	scanf_s("%llu", &q);
+	printf("\n-==Decimal to Binary==-\nVersion 4\n\n");
 	//j = 0;
 	for (a = 0; q > 1; a = a + 1)
 	{
 		r = q % 2;
 		if (q > 1)
-			printf("2|%lld|%lld\n------\n", q, r);
+			printf("2|%llu|%llu\n------\n", q, r);
 		q = q / 2;
 		if (q <= 1)
-			printf(" |%lld|", q);
+			printf(" |%llu|", q);
 		storage[a] = r;
 	}
-	storage[a + 1] = q;
+	storage[a] = q;
 	printf("\n\nFinal Answer\n\n");
 	for (j = 64; j >= 0; j = j - 1)
 	{
