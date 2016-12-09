@@ -2,14 +2,13 @@
 #include <conio.h>
 
 //AaSh
-//long long int personalpow(long long int x, long long int y);
 void main()
 
 {
 	int storage[64];
 	long long int r, a, j,q,k;
 
-	for (k = 1; k <= 64; k = k + 1)
+	for (k = 0; k <= 64; k = k + 1)
 	{
 		storage[k] = 0;
 	}
@@ -25,32 +24,13 @@ void main()
 		q = q / 2;
 		if (q <= 1)
 			printf(" |%lld|", q);
-		storage[a + 1] = r;
-		//j = (r*personalpow(10, a)) + j;
+		storage[a] = r;
 	}
 	storage[a + 1] = q;
 	printf("\n\nFinal Answer\n\n");
-	for (j = 64; j >= 1; j = j - 1)
+	for (j = 64; j >= 0; j = j - 1)
 	{
 		printf("%d", storage[j]);
 	}
-	//j = (q * personalpow(10, a) + j);
-	//printf("\n\n%lli\n", j);
-
 	_getch();
 }
-
-/*
-long long int personalpow(long long int x, long long int y)
-{
-	long long int k, c = 1, j = x;
-	if (y == 0)
-		j = x;
-	else
-		for (k = 1; k <= y; k = k + 1)
-		{
-			c = c*j;
-		}
-	return (c);
-}
-*/
