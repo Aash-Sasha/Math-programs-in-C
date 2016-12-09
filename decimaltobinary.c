@@ -18,10 +18,9 @@ void main()
         //print welcome message and take input
 	printf("\t-=AaSh=-\nInput Value of n\n\n");
 	scanf("%llu", &q);
-        q=ULLONG_MAX;
-	printf("\n-==Decimal to Binary==-\nVersion 4\n\n");
-
+	
         //calculation and print table
+	printf("\n-==Decimal to Binary==-\nVersion 4\n\n");
 	for (a = 0; q > 1; a = a + 1)
 	{
 		r = q % 2;
